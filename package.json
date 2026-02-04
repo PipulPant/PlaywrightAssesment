@@ -1,0 +1,19 @@
+{
+  "name": "sauchedemotrinity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "open:ui:test": "playwright test --project=chromium --ui",
+    "run:ui:test": "playwright test --project=chromium",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "Pipul Pant",
+  "description": "Playwright test automation for Sauce Demo",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.0",
+    "dotenv": "^17.2.3"
+  }
+}
