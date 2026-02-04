@@ -44,3 +44,4 @@ For a deeper dive into the technical details, see:
 
 ## Success Criteria
 All tests are configured to run in parallel. A successful run should show 8 functional tests passing (plus the background auth setup).
+# PlaywrightAssesment
